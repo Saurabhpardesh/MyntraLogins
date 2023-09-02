@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening Meesho]]>
+    </line>
+    <line>
+      <![CDATA[Opening Amazon]]>
+    </line>
+    <line>
+      <![CDATA[Opening Flipcard]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-30T12:12:46 IST" name="Suite" finished-at="2023-08-30T12:13:16 IST" duration-ms="30139">
+    <groups>
+    </groups>
+    <test started-at="2023-08-30T12:12:46 IST" name="Test" finished-at="2023-08-30T12:13:16 IST" duration-ms="30139">
+      <class name="e_commers.Amazon">
+        <test-method signature="AmezonTest()[pri:0, instance:e_commers.Amazon@498d318c]" started-at="2023-08-30T12:12:55 IST" name="AmezonTest" finished-at="2023-08-30T12:13:00 IST" duration-ms="5685" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Amazon]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AmezonTest -->
+      </class> <!-- e_commers.Amazon -->
+      <class name="e_commers.Meesho">
+        <test-method signature="MeeshoTest()[pri:0, instance:e_commers.Meesho@55b7a4e0]" started-at="2023-08-30T12:12:46 IST" name="MeeshoTest" finished-at="2023-08-30T12:12:55 IST" duration-ms="8662" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Meesho]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MeeshoTest -->
+      </class> <!-- e_commers.Meesho -->
+      <class name="e_commers.Flipcard">
+        <test-method signature="FlipcardTest()[pri:0, instance:e_commers.Flipcard@6e171cd7]" started-at="2023-08-30T12:13:01 IST" name="FlipcardTest" finished-at="2023-08-30T12:13:16 IST" duration-ms="15730" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Flipcard]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FlipcardTest -->
+      </class> <!-- e_commers.Flipcard -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening Meesho]]>
+    </line>
+    <line>
+      <![CDATA[Opening Amazon]]>
+    </line>
+    <line>
+      <![CDATA[Opening Flipcard]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-29T19:48:09 IST" name="Ecommerc_Regression_suit" finished-at="2023-08-29T19:48:30 IST" duration-ms="20783">
+    <groups>
+    </groups>
+    <test started-at="2023-08-29T19:48:09 IST" name="Test" finished-at="2023-08-29T19:48:30 IST" duration-ms="20783">
+      <class name="e_commers.Amazon">
+        <test-method signature="AmezonTest()[pri:0, instance:e_commers.Amazon@2a65fe7c]" started-at="2023-08-29T19:48:13 IST" name="AmezonTest" finished-at="2023-08-29T19:48:18 IST" duration-ms="4757" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Amazon]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AmezonTest -->
+      </class> <!-- e_commers.Amazon -->
+      <class name="e_commers.Meesho">
+        <test-method signature="MeeshoTest()[pri:0, instance:e_commers.Meesho@2a3b5b47]" started-at="2023-08-29T19:48:09 IST" name="MeeshoTest" finished-at="2023-08-29T19:48:13 IST" duration-ms="4168" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Meesho]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MeeshoTest -->
+      </class> <!-- e_commers.Meesho -->
+      <class name="e_commers.Flipcard">
+        <test-method signature="FlipcardTest()[pri:0, instance:e_commers.Flipcard@4135c3b]" started-at="2023-08-29T19:48:18 IST" name="FlipcardTest" finished-at="2023-08-29T19:48:30 IST" duration-ms="11769" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Flipcard]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FlipcardTest -->
+      </class> <!-- e_commers.Flipcard -->
+    </test> <!-- Test -->
+  </suite> <!-- Ecommerc_Regression_suit -->
+</testng-results>
