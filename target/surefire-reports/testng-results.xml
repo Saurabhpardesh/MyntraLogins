@@ -11,12 +11,12 @@
       <![CDATA[Opening Flipcard]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-08-30T12:12:46 IST" name="Suite" finished-at="2023-08-30T12:13:16 IST" duration-ms="30139">
+  <suite started-at="2023-12-08T20:06:39 IST" name="Suite" finished-at="2023-12-08T20:07:38 IST" duration-ms="58752">
     <groups>
     </groups>
-    <test started-at="2023-08-30T12:12:46 IST" name="Test" finished-at="2023-08-30T12:13:16 IST" duration-ms="30139">
+    <test started-at="2023-12-08T20:06:39 IST" name="Test" finished-at="2023-12-08T20:07:38 IST" duration-ms="58752">
       <class name="e_commers.Amazon">
-        <test-method signature="AmezonTest()[pri:0, instance:e_commers.Amazon@498d318c]" started-at="2023-08-30T12:12:55 IST" name="AmezonTest" finished-at="2023-08-30T12:13:00 IST" duration-ms="5685" status="PASS">
+        <test-method signature="AmezonTest()[pri:0, instance:e_commers.Amazon@2ef3eef9]" started-at="2023-12-08T20:06:45 IST" name="AmezonTest" finished-at="2023-12-08T20:07:23 IST" duration-ms="37842" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening Amazon]]>
@@ -25,7 +25,7 @@
         </test-method> <!-- AmezonTest -->
       </class> <!-- e_commers.Amazon -->
       <class name="e_commers.Meesho">
-        <test-method signature="MeeshoTest()[pri:0, instance:e_commers.Meesho@55b7a4e0]" started-at="2023-08-30T12:12:46 IST" name="MeeshoTest" finished-at="2023-08-30T12:12:55 IST" duration-ms="8662" status="PASS">
+        <test-method signature="MeeshoTest()[pri:0, instance:e_commers.Meesho@647e447]" started-at="2023-12-08T20:06:39 IST" name="MeeshoTest" finished-at="2023-12-08T20:06:45 IST" duration-ms="6182" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening Meesho]]>
@@ -34,7 +34,7 @@
         </test-method> <!-- MeeshoTest -->
       </class> <!-- e_commers.Meesho -->
       <class name="e_commers.Flipcard">
-        <test-method signature="FlipcardTest()[pri:0, instance:e_commers.Flipcard@6e171cd7]" started-at="2023-08-30T12:13:01 IST" name="FlipcardTest" finished-at="2023-08-30T12:13:16 IST" duration-ms="15730" status="PASS">
+        <test-method signature="FlipcardTest()[pri:0, instance:e_commers.Flipcard@243c4f91]" started-at="2023-12-08T20:07:23 IST" name="FlipcardTest" finished-at="2023-12-08T20:07:38 IST" duration-ms="14659" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening Flipcard]]>
