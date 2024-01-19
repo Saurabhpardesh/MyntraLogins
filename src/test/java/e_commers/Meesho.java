@@ -7,9 +7,9 @@ import org.testng.annotations.Test;
 
 public class Meesho {
   @Test
-  public void MeeshoTest() {
+  public void MeeshoTest()  {
 	  System.setProperty("webdriver.chrome.driver","D:\\Chrome downlode file\\Chrome driver Selenium\\chromedriver-win64\\chromedriver.exe");
-	  Reporter.log("Opening Meesho",true);
+	  Reporter.log("Opening meesho",true);
 	  WebDriver driver =new ChromeDriver ();
 	  driver.get("https://www.meesho.com/");
 	  driver.quit();

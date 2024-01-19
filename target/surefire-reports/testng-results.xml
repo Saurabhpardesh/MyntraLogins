@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Opening Meesho]]>
+      <![CDATA[Opening meesho]]>
     </line>
     <line>
       <![CDATA[Opening Amazon]]>
@@ -10,13 +10,16 @@
     <line>
       <![CDATA[Opening Flipcard]]>
     </line>
+    <line>
+      <![CDATA[Opening Myntra]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-12-08T20:06:39 IST" name="Suite" finished-at="2023-12-08T20:07:38 IST" duration-ms="58752">
+  <suite started-at="2024-01-19T15:17:37 IST" name="Suite" finished-at="2024-01-19T15:18:39 IST" duration-ms="61997">
     <groups>
     </groups>
-    <test started-at="2023-12-08T20:06:39 IST" name="Test" finished-at="2023-12-08T20:07:38 IST" duration-ms="58752">
+    <test started-at="2024-01-19T15:17:37 IST" name="Test" finished-at="2024-01-19T15:18:39 IST" duration-ms="61997">
       <class name="e_commers.Amazon">
-        <test-method signature="AmezonTest()[pri:0, instance:e_commers.Amazon@2ef3eef9]" started-at="2023-12-08T20:06:45 IST" name="AmezonTest" finished-at="2023-12-08T20:07:23 IST" duration-ms="37842" status="PASS">
+        <test-method signature="AmezonTest()[pri:0, instance:e_commers.Amazon@20ce78ec]" started-at="2024-01-19T15:17:48 IST" name="AmezonTest" finished-at="2024-01-19T15:17:57 IST" duration-ms="8755" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening Amazon]]>
@@ -24,17 +27,26 @@
           </reporter-output>
         </test-method> <!-- AmezonTest -->
       </class> <!-- e_commers.Amazon -->
-      <class name="e_commers.Meesho">
-        <test-method signature="MeeshoTest()[pri:0, instance:e_commers.Meesho@647e447]" started-at="2023-12-08T20:06:39 IST" name="MeeshoTest" finished-at="2023-12-08T20:06:45 IST" duration-ms="6182" status="PASS">
+      <class name="e_commers.Myntra">
+        <test-method signature="Myntrap()[pri:0, instance:e_commers.Myntra@56620197]" started-at="2024-01-19T15:18:10 IST" name="Myntrap" finished-at="2024-01-19T15:18:39 IST" duration-ms="29376" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Opening Meesho]]>
+              <![CDATA[Opening Myntra]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Myntrap -->
+      </class> <!-- e_commers.Myntra -->
+      <class name="e_commers.Meesho">
+        <test-method signature="MeeshoTest()[pri:0, instance:e_commers.Meesho@16ec5519]" started-at="2024-01-19T15:17:37 IST" name="MeeshoTest" finished-at="2024-01-19T15:17:48 IST" duration-ms="10907" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening meesho]]>
             </line>
           </reporter-output>
         </test-method> <!-- MeeshoTest -->
       </class> <!-- e_commers.Meesho -->
       <class name="e_commers.Flipcard">
-        <test-method signature="FlipcardTest()[pri:0, instance:e_commers.Flipcard@243c4f91]" started-at="2023-12-08T20:07:23 IST" name="FlipcardTest" finished-at="2023-12-08T20:07:38 IST" duration-ms="14659" status="PASS">
+        <test-method signature="FlipcardTest()[pri:0, instance:e_commers.Flipcard@393671df]" started-at="2024-01-19T15:17:57 IST" name="FlipcardTest" finished-at="2024-01-19T15:18:10 IST" duration-ms="12908" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening Flipcard]]>

@@ -6,6 +6,7 @@
       <class name="e_commers.Meesho"/>
       <class name="e_commers.Amazon"/>
       <class name="e_commers.Flipcard"/>
+      <class name="e_commers.Myntra"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
