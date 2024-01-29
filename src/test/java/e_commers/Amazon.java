@@ -12,6 +12,6 @@ public class Amazon {
 	  Reporter.log("Opening Amazon",true);
 	  WebDriver driver =new ChromeDriver ();
 	  driver.get("https://www.amazon.in/");
-	  driver.quit();
+	  driver.close();
   }
 }

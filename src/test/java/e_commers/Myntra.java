@@ -12,6 +12,6 @@ public class Myntra {
 	  Reporter.log("Opening Myntra",true);
 	  WebDriver driver =new ChromeDriver ();
 	  driver.get("https://www.myntra.com/");
-	  driver.quit();
+	  driver.close();
   }
 }

@@ -14,12 +14,12 @@
       <![CDATA[Opening Myntra]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-01-29T21:31:02 IST" name="Suite" finished-at="2024-01-29T21:31:41 IST" duration-ms="39062">
+  <suite started-at="2024-01-29T21:44:28 IST" name="Suite" finished-at="2024-01-29T21:44:55 IST" duration-ms="27410">
     <groups>
     </groups>
-    <test started-at="2024-01-29T21:31:02 IST" name="Test" finished-at="2024-01-29T21:31:41 IST" duration-ms="39062">
+    <test started-at="2024-01-29T21:44:28 IST" name="Test" finished-at="2024-01-29T21:44:55 IST" duration-ms="27410">
       <class name="e_commers.Amazon">
-        <test-method signature="AmezonTest()[pri:0, instance:e_commers.Amazon@20ce78ec]" started-at="2024-01-29T21:31:08 IST" name="AmezonTest" finished-at="2024-01-29T21:31:23 IST" duration-ms="15168" status="PASS">
+        <test-method signature="AmezonTest()[pri:0, instance:e_commers.Amazon@20ce78ec]" started-at="2024-01-29T21:44:34 IST" name="AmezonTest" finished-at="2024-01-29T21:44:44 IST" duration-ms="9542" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening Amazon]]>
@@ -28,7 +28,7 @@
         </test-method> <!-- AmezonTest -->
       </class> <!-- e_commers.Amazon -->
       <class name="e_commers.Myntra">
-        <test-method signature="Myntrap()[pri:0, instance:e_commers.Myntra@56620197]" started-at="2024-01-29T21:31:32 IST" name="Myntrap" finished-at="2024-01-29T21:31:41 IST" duration-ms="9280" status="PASS">
+        <test-method signature="Myntrap()[pri:0, instance:e_commers.Myntra@56620197]" started-at="2024-01-29T21:44:49 IST" name="Myntrap" finished-at="2024-01-29T21:44:55 IST" duration-ms="5981" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening Myntra]]>
@@ -37,7 +37,7 @@
         </test-method> <!-- Myntrap -->
       </class> <!-- e_commers.Myntra -->
       <class name="e_commers.Meesho">
-        <test-method signature="MeeshoTest()[pri:0, instance:e_commers.Meesho@16ec5519]" started-at="2024-01-29T21:31:02 IST" name="MeeshoTest" finished-at="2024-01-29T21:31:08 IST" duration-ms="6526" status="PASS">
+        <test-method signature="MeeshoTest()[pri:0, instance:e_commers.Meesho@16ec5519]" started-at="2024-01-29T21:44:28 IST" name="MeeshoTest" finished-at="2024-01-29T21:44:34 IST" duration-ms="5943" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening meesho]]>
@@ -46,7 +46,7 @@
         </test-method> <!-- MeeshoTest -->
       </class> <!-- e_commers.Meesho -->
       <class name="e_commers.Flipcard">
-        <test-method signature="FlipcardTest()[pri:0, instance:e_commers.Flipcard@393671df]" started-at="2024-01-29T21:31:24 IST" name="FlipcardTest" finished-at="2024-01-29T21:31:32 IST" duration-ms="8030" status="PASS">
+        <test-method signature="FlipcardTest()[pri:0, instance:e_commers.Flipcard@393671df]" started-at="2024-01-29T21:44:44 IST" name="FlipcardTest" finished-at="2024-01-29T21:44:49 IST" duration-ms="5883" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening Flipcard]]>

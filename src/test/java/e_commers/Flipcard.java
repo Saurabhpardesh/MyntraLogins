@@ -12,7 +12,7 @@ public class Flipcard {
 	  Reporter.log("Opening Flipcard",true);
 	  WebDriver driver =new ChromeDriver ();
 	  driver.get("https://www.flipkart.com/");
-	  driver.quit();
+	  driver.close();
 		
   }
 }
