@@ -12,6 +12,6 @@ public class Meesho {
 	  Reporter.log("Opening meesho",true);
 	  WebDriver driver =new ChromeDriver ();
 	  driver.get("https://www.meesho.com/");
-	  driver.quit();
+	  driver.close();
   }
 }
