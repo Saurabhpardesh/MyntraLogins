@@ -11,6 +11,7 @@ public class Myntra {
 	  System.setProperty("webdriver.chrome.driver","D:\\Chrome downlode file\\Chrome driver Selenium\\chromedriver-win64\\chromedriver.exe");
 	  Reporter.log("Opening Myntra",true);
 	  WebDriver driver =new ChromeDriver ();
+	  driver.manage().window().maximize();
 	  driver.get("https://www.myntra.com/");
 	  driver.close();
   }
