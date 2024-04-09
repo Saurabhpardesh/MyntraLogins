@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class Myntra {
   @Test
   public void Myntrap() {
-	  System.setProperty("webdriver.chrome.driver","D:\\Chrome downlode file\\Chrome driver Selenium\\chromedriver-win64\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver","D:\\Downlods\\Chrome downlode file\\Chrome driver Selenium\\chromedriver-win64\\chromedriver.exe");
 	  Reporter.log("Opening Myntra",true);
 	  WebDriver driver =new ChromeDriver ();
 	  driver.manage().window().maximize();
