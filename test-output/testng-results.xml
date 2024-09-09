@@ -1,25 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Opening meesho]]>
-    </line>
     <line>
       <![CDATA[Opening Amazon]]>
     </line>
-    <line>
-      <![CDATA[Opening Flipcard]]>
-    </line>
-    <line>
-      <![CDATA[Opening Myntra]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-04-04T18:57:09 IST" name="e_commerce_testng.xml" finished-at="2024-04-04T18:58:20 IST" duration-ms="71271">
+  <suite started-at="2024-09-09T13:01:20 IST" name="Default suite" finished-at="2024-09-09T13:01:20 IST" duration-ms="235">
     <groups>
     </groups>
-    <test started-at="2024-04-04T18:57:09 IST" name="Test" finished-at="2024-04-04T18:58:20 IST" duration-ms="71271">
+    <test started-at="2024-09-09T13:01:20 IST" name="Default test" finished-at="2024-09-09T13:01:20 IST" duration-ms="235">
       <class name="e_commers.Amazon">
-        <test-method signature="AmezonTest()[pri:0, instance:e_commers.Amazon@74fe5c40]" started-at="2024-04-04T18:57:20 IST" name="AmezonTest" finished-at="2024-04-04T18:57:36 IST" duration-ms="16017" status="PASS">
+        <test-method signature="AmezonTest()[pri:0, instance:e_commers.Amazon@368f2016]" started-at="2024-09-09T13:01:20 IST" name="AmezonTest" finished-at="2024-09-09T13:01:20 IST" duration-ms="204" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'SAURABH', ip: '192.168.31.192'
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'SAURABH', ip: '192.168.31.192'
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+at e_commers.Amazon.AmezonTest(Amazon.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program "D:\Downlods\Chrome downlode file\Chrome driver Selenium\chromedriver-win64": CreateProcess error=5, Access is denied
+at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:194)
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:207)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+... 33 more
+Caused by: java.io.IOException: Cannot run program "D:\Downlods\Chrome downlode file\Chrome driver Selenium\chromedriver-win64": CreateProcess error=5, Access is denied
+at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:192)
+... 36 more
+Caused by: java.io.IOException: CreateProcess error=5, Access is denied
+at java.base/java.lang.ProcessImpl.create(Native Method)
+at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
             <line>
               <![CDATA[Opening Amazon]]>
@@ -27,33 +88,6 @@
           </reporter-output>
         </test-method> <!-- AmezonTest -->
       </class> <!-- e_commers.Amazon -->
-      <class name="e_commers.Myntra">
-        <test-method signature="Myntrap()[pri:0, instance:e_commers.Myntra@10e31a9a]" started-at="2024-04-04T18:57:53 IST" name="Myntrap" finished-at="2024-04-04T18:58:20 IST" duration-ms="26583" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Opening Myntra]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Myntrap -->
-      </class> <!-- e_commers.Myntra -->
-      <class name="e_commers.Meesho">
-        <test-method signature="MeeshoTest()[pri:0, instance:e_commers.Meesho@7e07db1f]" started-at="2024-04-04T18:57:09 IST" name="MeeshoTest" finished-at="2024-04-04T18:57:20 IST" duration-ms="11749" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Opening meesho]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- MeeshoTest -->
-      </class> <!-- e_commers.Meesho -->
-      <class name="e_commers.Flipcard">
-        <test-method signature="FlipcardTest()[pri:0, instance:e_commers.Flipcard@3febb011]" started-at="2024-04-04T18:57:36 IST" name="FlipcardTest" finished-at="2024-04-04T18:57:53 IST" duration-ms="16873" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Opening Flipcard]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- FlipcardTest -->
-      </class> <!-- e_commers.Flipcard -->
-    </test> <!-- Test -->
-  </suite> <!-- e_commerce_testng.xml -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

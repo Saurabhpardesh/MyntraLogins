@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="e_commers.Flipcard">
+      <class name="e_commers.Amazon">
         <methods>
-          <include name="FlipcardTest"/>
+          <include name="AmezonTest"/>
         </methods>
-      </class> <!-- e_commers.Flipcard -->
+      </class> <!-- e_commers.Amazon -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
