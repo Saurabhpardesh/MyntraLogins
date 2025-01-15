@@ -14,7 +14,7 @@ public class Flipcard {
 	  Driver.manage().window().maximize();
 	  Driver.get("https://www.flipkart.com/");
 	  
-	  Driver.close();
+	  Driver.quit();
 		
   }
 }

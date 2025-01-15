@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 10.34 s <<< FAILURE! -- in TestSuite
-e_commers.Meesho.MeeshoTest -- Time elapsed: 1.890 s <<< FAILURE!
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 17.10 s <<< FAILURE! -- in TestSuite
+e_commers.Meesho.MeeshoTest -- Time elapsed: 4.148 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 132
 Current browser version is 131.0.6778.265 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
@@ -56,7 +56,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-e_commers.Amazon.AmezonTest -- Time elapsed: 2.149 s <<< FAILURE!
+e_commers.Amazon.AmezonTest -- Time elapsed: 4.605 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 132
 Current browser version is 131.0.6778.265 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
@@ -110,7 +110,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-e_commers.Flipcard.FlipcardTest -- Time elapsed: 3.231 s <<< FAILURE!
+e_commers.Flipcard.FlipcardTest -- Time elapsed: 3.872 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 132
 Current browser version is 131.0.6778.265 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
@@ -164,7 +164,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-e_commers.Myntra.Myntrap -- Time elapsed: 2.430 s <<< FAILURE!
+e_commers.Myntra.Myntrap -- Time elapsed: 3.750 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 132
 Current browser version is 131.0.6778.265 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 

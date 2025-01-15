@@ -14,12 +14,12 @@
       <![CDATA[Opening Myntra]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-01-15T18:09:16 IST" name="e_commerce_testng.xml" finished-at="2025-01-15T18:09:26 IST" duration-ms="9738">
+  <suite started-at="2025-01-15T18:23:07 IST" name="e_commerce_testng.xml" finished-at="2025-01-15T18:23:23 IST" duration-ms="16418">
     <groups>
     </groups>
-    <test started-at="2025-01-15T18:09:16 IST" name="Test" finished-at="2025-01-15T18:09:26 IST" duration-ms="9738">
+    <test started-at="2025-01-15T18:23:07 IST" name="Test" finished-at="2025-01-15T18:23:23 IST" duration-ms="16418">
       <class name="e_commers.Amazon">
-        <test-method signature="AmezonTest()[pri:0, instance:e_commers.Amazon@42e99e4a]" started-at="2025-01-15T18:09:18 IST" name="AmezonTest" finished-at="2025-01-15T18:09:20 IST" duration-ms="2146" status="FAIL">
+        <test-method signature="AmezonTest()[pri:0, instance:e_commers.Amazon@42e99e4a]" started-at="2025-01-15T18:23:11 IST" name="AmezonTest" finished-at="2025-01-15T18:23:15 IST" duration-ms="4606" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 132
@@ -93,7 +93,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- AmezonTest -->
       </class> <!-- e_commers.Amazon -->
       <class name="e_commers.Myntra">
-        <test-method signature="Myntrap()[pri:0, instance:e_commers.Myntra@52e6fdee]" started-at="2025-01-15T18:09:23 IST" name="Myntrap" finished-at="2025-01-15T18:09:26 IST" duration-ms="2428" status="FAIL">
+        <test-method signature="Myntrap()[pri:0, instance:e_commers.Myntra@52e6fdee]" started-at="2025-01-15T18:23:19 IST" name="Myntrap" finished-at="2025-01-15T18:23:23 IST" duration-ms="3749" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 132
@@ -167,7 +167,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- Myntrap -->
       </class> <!-- e_commers.Myntra -->
       <class name="e_commers.Meesho">
-        <test-method signature="MeeshoTest()[pri:0, instance:e_commers.Meesho@795cd85e]" started-at="2025-01-15T18:09:16 IST" name="MeeshoTest" finished-at="2025-01-15T18:09:18 IST" duration-ms="1887" status="FAIL">
+        <test-method signature="MeeshoTest()[pri:0, instance:e_commers.Meesho@795cd85e]" started-at="2025-01-15T18:23:07 IST" name="MeeshoTest" finished-at="2025-01-15T18:23:11 IST" duration-ms="4141" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 132
@@ -241,7 +241,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- MeeshoTest -->
       </class> <!-- e_commers.Meesho -->
       <class name="e_commers.Flipcard">
-        <test-method signature="FlipcardTest()[pri:0, instance:e_commers.Flipcard@14dd9eb7]" started-at="2025-01-15T18:09:20 IST" name="FlipcardTest" finished-at="2025-01-15T18:09:23 IST" duration-ms="3230" status="FAIL">
+        <test-method signature="FlipcardTest()[pri:0, instance:e_commers.Flipcard@14dd9eb7]" started-at="2025-01-15T18:23:15 IST" name="FlipcardTest" finished-at="2025-01-15T18:23:19 IST" duration-ms="3871" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 132

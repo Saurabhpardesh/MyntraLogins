@@ -1,77 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Opening meesho]]>
+    </line>
     <line>
       <![CDATA[Opening Amazon]]>
     </line>
+    <line>
+      <![CDATA[Opening Flipcard]]>
+    </line>
+    <line>
+      <![CDATA[Opening Myntra]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-01-15T18:11:17 IST" name="Default suite" finished-at="2025-01-15T18:11:19 IST" duration-ms="2180">
+  <suite started-at="2025-01-15T18:36:51 IST" name="e_commerce_testng.xml" finished-at="2025-01-15T18:37:11 IST" duration-ms="20416">
     <groups>
     </groups>
-    <test started-at="2025-01-15T18:11:17 IST" name="Default test" finished-at="2025-01-15T18:11:19 IST" duration-ms="2180">
+    <test started-at="2025-01-15T18:36:51 IST" name="Test" finished-at="2025-01-15T18:37:11 IST" duration-ms="20416">
       <class name="e_commers.Amazon">
-        <test-method signature="AmezonTest()[pri:0, instance:e_commers.Amazon@368f2016]" started-at="2025-01-15T18:11:17 IST" name="AmezonTest" finished-at="2025-01-15T18:11:19 IST" duration-ms="2138" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 132
-Current browser version is 131.0.6778.265 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
-Host info: host: 'SAURABH', ip: '192.168.31.192'
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 132
-Current browser version is 131.0.6778.265 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
-Host info: host: 'SAURABH', ip: '192.168.31.192'
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at e_commers.Amazon.AmezonTest(Amazon.java:13)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method signature="AmezonTest()[pri:0, instance:e_commers.Amazon@77888435]" started-at="2025-01-15T18:36:55 IST" name="AmezonTest" finished-at="2025-01-15T18:36:59 IST" duration-ms="3800" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening Amazon]]>
@@ -79,6 +27,33 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- AmezonTest -->
       </class> <!-- e_commers.Amazon -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="e_commers.Myntra">
+        <test-method signature="Myntrap()[pri:0, instance:e_commers.Myntra@71d44a3]" started-at="2025-01-15T18:37:05 IST" name="Myntrap" finished-at="2025-01-15T18:37:11 IST" duration-ms="6428" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Myntra]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Myntrap -->
+      </class> <!-- e_commers.Myntra -->
+      <class name="e_commers.Meesho">
+        <test-method signature="MeeshoTest()[pri:0, instance:e_commers.Meesho@a1153bc]" started-at="2025-01-15T18:36:51 IST" name="MeeshoTest" finished-at="2025-01-15T18:36:55 IST" duration-ms="4373" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening meesho]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MeeshoTest -->
+      </class> <!-- e_commers.Meesho -->
+      <class name="e_commers.Flipcard">
+        <test-method signature="FlipcardTest()[pri:0, instance:e_commers.Flipcard@73a1e9a9]" started-at="2025-01-15T18:36:59 IST" name="FlipcardTest" finished-at="2025-01-15T18:37:05 IST" duration-ms="5777" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Flipcard]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FlipcardTest -->
+      </class> <!-- e_commers.Flipcard -->
+    </test> <!-- Test -->
+  </suite> <!-- e_commerce_testng.xml -->
 </testng-results>
